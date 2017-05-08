@@ -20,7 +20,14 @@
 3. `npm run dev`，启动webpack-dev-server，打开浏览器`http://localhost:8080`查看效果。
 4.要用模拟数据可以使用mock(mockjs.com)
 
-\
+## 技术栈
+
+- react@15.3.1
+- react-router@15.3.1
+- redux@3.6.0
+- webpack@1.14.2
+- es6
+- antd (https://ant.design)
 
 
 ## 一些说明
