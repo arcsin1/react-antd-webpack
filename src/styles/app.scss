@@ -1,0 +1,22 @@
+.login-form{
+  margin: 20px auto;
+  padding: 10px 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  width: 300px;
+  height: 300px;
+
+  p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .login-form-button {
+    width: 100%;
+  }
+}
