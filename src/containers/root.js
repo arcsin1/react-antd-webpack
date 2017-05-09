@@ -14,7 +14,7 @@ import Log from "../components/Log"
 
 
 const routes = (
-  <Router history={ hashHistory }>
+  <Router>
       <Route path="/" component={ App } >
           <IndexRoute component={ Login } />
           <Route path="login" component={ Login } />
@@ -34,6 +34,6 @@ const routes = (
 
 export default class Root extends Component {
   render() {
-    return <Router routes={routes} />
+    return <Router routes={routes} history={ hashHistory }/>
   }
 };
